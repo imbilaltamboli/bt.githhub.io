@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="We Are Paperpillar A team of passionate designers and developers from Yogyakarta">
+    <title>404 - Page Not Found | Paperpillar</title>
+    <!-- Styles-->
+    <link rel="stylesheet" href="assets/css/main.min.css">
+    <link href="./assets/fonts/Icomoon/style.css" rel="stylesheet">
+    
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <div class="header-container">
+          <div class="container">
+            <div class="header-section d-flex justify-content-between align-items-center">
+              <div class="header-logo"><a href="/"><img src="./assets/images/logo-light.png"></a></div>
+              <div class="header-menu">
+                <ul class="nav nav-light">
+                  <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="blog">Blog</a></li>
+                  <li class="nav-item"><span class="nav-link" data-toggle="modal" data-target="#contactModal">Contact</span></li>
+                </ul>
+                <div class="mobile-menu"><span></span><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="main-content">
+        <section class="section-error d-flex align-items-center justify-content-center">
+          <div class="error-bg">
+            <div class="error-pattern-bg"><img src="./assets/images/404-pattern-bg.png"></div>
+          </div>
+          <div class="error-patterns">
+            <div class="pattern-planet-1"></div>
+            <div class="pattern-planet-2"></div>
+            <div class="pattern-planet-3"></div>
+            <div class="pattern-planet-4"></div>
+            <div class="pattern-planet-5"></div>
+          </div>
+          <div class="error-images">
+            <div class="error-moon"><img src="./assets/images/moon.png"></div>
+            <div class="error-big-planet"><img src="./assets/images/big-planet.png"></div>
+            <div class="error-green-planet"><img src="./assets/images/green-planet.png"></div>
+            <div class="error-orange-planet"><img src="./assets/images/orange-planet.png"></div>
+            <div class="error-astronaut"><img src="./assets/images/astronaut.png"></div>
+          </div>
+          <div class="error-text">
+            <h1>Why am I here?</h1>
+            <p>It seems like the page that you are looking for is no longer here.</p><a class="btn btn-white btn-rounded" href="/">Take Me Home</a>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="modal contact-modal fade" id="contactModal" role="dialog">
+      <div class="modal-dialog modal-dialog-centered">
+        <svg width="742px" height="918px" viewBox="0 0 742 918" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <defs>
+            <clipPath id="myClip">
+              <path d="M30.723868,23.5811095 C144.050861,7.86036983 257.377853,0 370.704846,0 C484.031838,0 597.358831,7.86036982 710.685823,23.5811095 L710.685823,23.5811095 C717.704865,24.5547922 723.272289,32.000975 724.059029,41.467178 C735.626137,180.644785 741.409692,319.822393 741.409692,459 C741.409692,598.177607 735.626137,737.355214 724.059029,876.532821 L724.05903,876.532821 C723.27229,885.999025 717.704865,893.445208 710.685824,894.418891 C597.358831,910.139631 484.031838,918 370.704846,918 C257.377853,918 144.050861,910.139631 30.7238682,894.418891 L30.7238682,894.41889 C23.7048271,893.445208 18.1374026,885.999025 17.3506626,876.532822 C5.7835542,737.355215 0,598.177607 0,459 C0,319.822393 5.78355416,180.644786 17.3506625,41.4671796 L17.3506612,41.4671794 C18.1374013,32.0009757 23.7048263,24.5547922 30.723868,23.5811095 Z" id="path-1"></path>
+            </clipPath>
+          </defs>
+        </svg>
+        <svg width="742px" height="768px" viewBox="0 0 742 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <defs> 
+            <clipPath id="myClip2">
+              <path d="M31.223868,19.727987 C144.550861,6.57599568 257.877853,0 371.204846,0 C484.531838,0 597.858831,6.57599567 711.185823,19.727987 C718.204865,20.5425712 723.772289,26.7720575 724.559029,34.6914953 C736.126137,151.127663 741.909692,267.563832 741.909692,384 C741.909692,500.436168 736.126137,616.872336 724.559029,733.308504 C723.77229,741.227942 718.204865,747.457429 711.185824,748.272014 C597.858831,761.424005 484.531838,768 371.204846,768 C257.877853,768 144.550861,761.424005 31.2238682,748.272014 C24.2048271,747.457429 18.6374026,741.227942 17.8506626,733.308505 C6.2835542,616.872337 0.5,500.436168 0.5,384 C0.5,267.563832 6.28355416,151.127664 17.8506625,34.6914967 C18.6374013,26.7720581 24.2048263,20.5425712 31.223868,19.727987 Z" id="path-1"></path>
+            </clipPath>
+          </defs>
+        </svg>
+        <div class="modal-content"><span data-dismiss="modal"><img src="./assets/icons/modal-close.png"></span>
+          <div class="modal-body">
+            <div class="modal-success hide">
+              <div class="text-center">
+                <h3>Thank You!</h3>
+                <p>We will be in contact with you within 1 to 2 working dasys!</p>
+              </div>
+            </div>
+            <div class="modal-form show">
+              <div>
+                <div class="form-wrapper">
+                  <div class="elfsight-app-1f01fcca-f5d0-4ddc-9520-6699109ed9cc"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <script src="assets/js/main.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104389919-1"></script>
+    <script src="https://apps.elfsight.com/p/platform.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-104389919-1');
+    </script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+
+<svg width="26px" height="21px" viewBox="0 0 26 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <style>
+
+
+        #logo-1{
+            stroke-dasharray:50 30;
+            stroke-dashoffset:80;
+            animation: logo1 4s ease infinite;
+        }
+
+
+        @keyframes logo1{
+            0%{
+                stroke-dashoffset:80;
+            }
+            50%{
+                stroke-dashoffset:0;
+            }
+            100%{
+                stroke-dashoffset:-80;
+            }
+        }
+    </style>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Artboard" transform="translate(-111.000000, -73.000000)" fill-rule="nonzero" stroke="#571d98" stroke-width="4">
+            <g id="Group" transform="translate(113.000000, 75.000000)">
+                <polyline id="logo-1" points="11 17 0 17 11 0 22 17"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
